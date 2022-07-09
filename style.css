@@ -1,0 +1,39 @@
+body{
+    background-color: pink;
+}
+#heading_div{
+  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: whitesmoke;  
+  box-shadow: 5px 5px 5px green;
+  animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  from{
+    box-shadow: 5px 5px 5px green;
+  }
+  to{
+    box-shadow: 5px 5px 5px red;
+  }
+}
+.copy_right_footer{
+  background-color: grey;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+video{
+  width: 350px;
+  height: 350px;
+  margin-left: 20px;
+}
+canvas{
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  margin-top: 100px
+}
